@@ -1,0 +1,9 @@
+# Keep line endings stable between Windows checkouts and the WSL/Linux
+# containers. CRLF inside a Dockerfile CMD or a shell script breaks the image.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary
